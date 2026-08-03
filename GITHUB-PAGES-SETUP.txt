@@ -1,0 +1,31 @@
+GITHUB PAGES SETUP
+
+Upload these items directly to the repository root:
+- index.html
+- styles.css
+- app.js
+- assets folder
+- .nojekyll
+
+Do NOT upload the enclosing meemure-yamu-github-pages-ready folder as a subfolder.
+
+Then open:
+Repository > Settings > Pages
+Source: Deploy from a branch
+Branch: main
+Folder: /(root)
+Save
+
+Expected repository layout:
+/
+  index.html
+  styles.css
+  app.js
+  .nojekyll
+  assets/
+    hero.webp
+    logo-light.png
+    logo-dark.png
+    ...all other images
+
+Image and file names are case-sensitive on GitHub Pages.
