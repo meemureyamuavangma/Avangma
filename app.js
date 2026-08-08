@@ -306,6 +306,7 @@ function initBookingForm() {
       `Preferred campsite: ${data.campsite}`,
       `Guide required: ${data.guide}`,
       `BBQ arrangement: ${data.bbq}`,
+      `Raa Bottles: ${data.raa || "0"} bottle(s)`,
       `Dietary or medical information: ${data.requirements || "None"}`,
       `Additional message: ${data.message || "None"}`,
       "",
